@@ -1,0 +1,11 @@
+SpriteCard
+{
+$basetexture "effects/BMClassic/BM_Classic_Glow"
+$translucent 1
+$ignorez 1
+$additive 1
+$overbrightfactor 3
+"srgb?$color" ".5"
+$minsize .0075
+$depthblend 0
+}

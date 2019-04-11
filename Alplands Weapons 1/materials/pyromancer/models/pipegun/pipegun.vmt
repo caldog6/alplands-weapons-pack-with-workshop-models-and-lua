@@ -1,0 +1,29 @@
+//This Texture is made by Rafaël De Jongh and is licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+// You are not allowed to alter, distribute or use this work for commercial purposes Without Permission of the author: Rafaël De Jongh
+"Vertexlitgeneric"
+{
+	"$basetexture"  "pyromancer\models\pipegun\pipegun"
+	"$bumpmap"     "pyromancer\models\pipegun\pipegun_normal"
+	"$normalmapalphaenvmapmask" "1"
+	"$normalmapalphaphongmask"    "1"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ 0.014 0.014 0.014 ]"
+	"$envmapfresnel"	"1"
+	"$envmapFresnelMinMaxExp"	"[0 5 .4]"
+	"$nocull" "1"
+
+	"$phong"     "1"
+	//"$phongexponent"  "24"
+	"$phongboost"   "0.12"
+	"$phongfresnelranges"      "[1 3 6]"
+	"$phongtint"                   "[0.8 1.1 1.3]" 
+	"$phongexponenttexture" 	"pyromancer\models\pipegun\pipegun_gloss"
+	"$phongalbedotint"		"1"
+        	"$phongalbedoboost" 	"14"
+	"$halflambert" 		"1"
+
+	"$rimlight" 	"1"
+	"$rimlightexponent" 	"66"	
+	"$rimlightboost"	"0.6"
+	"$rimmask" 	"1"
+}
